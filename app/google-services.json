@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "47386519509",
+    "firebase_url": "https://onestopblog-82b96.firebaseio.com",
+    "project_id": "onestopblog-82b96",
+    "storage_bucket": "onestopblog-82b96.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47386519509:android:858386e87757e31abfbf5c",
+        "android_client_info": {
+          "package_name": "stop.one.onestopblog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47386519509-ja63j8epflv5b1ork73aqd0m288d0mrq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "stop.one.onestopblog",
+            "certificate_hash": "94c75faed4857d73863e584f481441af66a5359e"
+          }
+        },
+        {
+          "client_id": "47386519509-l2cq4r2cfdd6f8edrpa9su48ttssru22.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzTp1-Ztj94kIy4WxjQuw-qxZHAR7omZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47386519509-l2cq4r2cfdd6f8edrpa9su48ttssru22.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
