@@ -57,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
         recyclerView = findViewById(R.id.recycler_view);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         FirebaseFirestore rootRef = FirebaseFirestore.getInstance();
+        
         Query query = rootRef.collection("blogs");
         recyclerView.hasFixedSize();
 
