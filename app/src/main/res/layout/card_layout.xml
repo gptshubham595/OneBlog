@@ -3,29 +3,62 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
     android:orientation="vertical">
 
     <LinearLayout
+        android:id="@+id/card_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="horizontal">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Heading"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-            android:gravity="center"
-            android:id="@+id/tv_head"/>
+        <ImageView
+            android:id="@+id/blog_image"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:scaleType="fitXY"
+            android:padding="5dp"
+            android:src="@drawable/add" />
 
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Description"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-            android:gravity="center"
-            android:id="@+id/tv_desc"/>
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/blog_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="6"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="23sp"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:id="@+id/author_name"
+                    android:layout_width="match_parent"
+                    android:layout_weight="4"
+                    android:textSize="14sp"
+                    android:gravity="bottom"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    android:layout_height="0dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
     </LinearLayout>
-
 
 </androidx.cardview.widget.CardView>

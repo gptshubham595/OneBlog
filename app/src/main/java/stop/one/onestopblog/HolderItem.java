@@ -1,33 +1,41 @@
 package stop.one.onestopblog;
 
-import androidx.recyclerview.widget.RecyclerView;
-
 public class HolderItem{
 
     public HolderItem() {
     }
 
-    String description;
-    String title;
+    String blogname;
+    String authorname;
+    String blogimage;
+    String username;
+    String commentbody;
 
-    public String getDescription() {
-        return description;
+    public HolderItem(String blogname, String authorname, String blogimage, String username, String commentbody) {
+        this.blogname = blogname;
+        this.authorname = authorname;
+        this.blogimage = blogimage;
+        this.username = username;
+        this.commentbody = commentbody;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public String getBlogname() {
+        return blogname;
     }
 
-    public String getTitle() {
-        return title;
+    public String getAuthorname() {
+        return authorname;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public String getBlogimage() {
+        return blogimage;
     }
 
-    public HolderItem(String title, String description) {
-        this.title = title;
-        this.description = description;
+    public String getUsername() {
+        return username;
+    }
+
+    public String getCommentbody() {
+        return commentbody;
     }
 }
